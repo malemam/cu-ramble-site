@@ -62,7 +62,7 @@
           };
 
           // To add the marker to the map, use the 'map' property
-          var marker = new google.maps.Marker(gapMarkerOptions);
+          var gapMarker = new google.maps.Marker(gapMarkerOptions);
 
            //Financier
           var financierPosition = new google.maps.LatLng(40.7305874, -73.9920667);
@@ -75,7 +75,7 @@
           };
 
           // To add the marker to the map, use the 'map' property
-          var marker = new google.maps.Marker(financierMarkerOptions);
+          var financierMarker = new google.maps.Marker(financierMarkerOptions);
 
 
           //40.728624,-73.9932657
@@ -90,7 +90,21 @@
           };
 
           // To add the marker to the map, use the 'map' property
-          var marker = new google.maps.Marker(mujiMarkerOptions);
+          var mujiMarker = new google.maps.Marker(mujiMarkerOptions);
+
+          //40.7279166,-73.9900685
+          //The Standard
+          var position = new google.maps.LatLng(40.7279166, -73.9900685);
+
+          var standardMarkerOptions = {
+              position: position,
+              map: map,
+              title:"Hello Standard",
+              icon: 'http://www.paris-hotel-regetel.com/img/gallery/icon-hotel-standard-design-paris.gif' //url to images
+          };
+
+          // To add the marker to the map, use the 'map' property
+          var standardMarker = new google.maps.Marker(standardMarkerOptions);
 
 
       }

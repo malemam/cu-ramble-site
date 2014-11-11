@@ -106,6 +106,19 @@
           // To add the marker to the map, use the 'map' property
           var standardMarker = new google.maps.Marker(standardMarkerOptions);
 
+          
+          //Cooper Square
+           var coopsquareposition = new google.maps.LatLng(40.7284654, -73.9907927);
+
+          var coopsquareMarkerOptions = {
+              position: coopsquareposition,
+              map: map,
+              title:"Hello Standard",
+              icon: 'http://www.brianrose.com/blog/wp-content/uploads/2012/01/footprints2.jpg' //url to images
+          };
+
+          // To add the marker to the map, use the 'map' property
+          var standardMarker = new google.maps.Marker(coopsquareMarkerOptions);
 
       }
 

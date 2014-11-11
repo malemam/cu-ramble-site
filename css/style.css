@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>	
-	<body>
-		<h1>First Site in Years!</h1>
-		<h2>Very excited about this!</h2>
-		<h3>hmmmm</h3>
-
-
-
-	</body>
-</html>
+body{
+	background-color: green;
+}
+h1{
+	text-decoration: blink;
+}
